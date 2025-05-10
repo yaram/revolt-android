@@ -128,6 +128,7 @@ class MainActivityViewModel @Inject constructor(
             capabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) -> true
             capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> true
             capabilities.hasTransport(NetworkCapabilities.TRANSPORT_VPN) -> true
+            capabilities.hasTransport(NetworkCapabilities.TRANSPORT_BLUETOOTH) -> true
             else -> false
         }
     }
